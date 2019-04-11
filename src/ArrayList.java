@@ -28,7 +28,7 @@ public class ArrayList<E> {
      * @param e
      */
     public void add(E e) {
-        add(array.length - 1, e);
+        add(size, e);
     }
 
     /**
